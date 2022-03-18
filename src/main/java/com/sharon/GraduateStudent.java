@@ -10,5 +10,14 @@ public class GraduateStudent extends Student { //繼承
         super(name, englishs, maths);
         this.thesis=thesis;
     }
+    @Override //覆寫檢查
+    public void print(){
+        System.out.println(name+"\t"+englishs+"\t"+maths);
+    }
+
+    public void test(){
+
+    }
+
 
 }

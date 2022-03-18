@@ -16,13 +16,16 @@ public class Student {
     }
 
     public void print(){
-        int average =(englishs+maths)/2;
-        System.out.print(name+"\t"+englishs+"\t"+maths+"\t"+average); //星星在旁邊就不能用ln
-        if(average<60){
+
+        System.out.print(name+"\t"+englishs+"\t"+maths+"\t"+getaverage()); //星星在旁邊就不能用ln
+        if(getaverage()<60){  //getaverage()=一個方法
             System.out.print("*");
         }
 
         System.out.println();
     }
 
+    public int getaverage(){
+        return (englishs+maths)/2;
+    }
 }

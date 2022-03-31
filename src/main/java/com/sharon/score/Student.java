@@ -1,4 +1,4 @@
-package com.sharon;
+package com.sharon.score;
 
 public class Student {
     String name;
@@ -17,9 +17,9 @@ public class Student {
 
     public void print(){
 
-        System.out.print(name+"\t"+englishs+"\t"+maths+"\t"+getaverage()); //星星在旁邊就不能用ln
+        System.out.print(name+"\t"+englishs+"\t"+maths+"\t"+getaverage());
         if(getaverage()<60){  //getaverage()=一個方法
-            System.out.print("*");
+            System.out.print("*");//星星在旁邊就不能用ln
         }
 
         System.out.println();

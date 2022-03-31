@@ -1,7 +1,7 @@
-package com.sharon;
-
+package com.sharon.score;
+//針對Jane寫的
 public class GraduateStudent extends Student { //繼承
-    int thesis;
+    int thesis; //Jane論文(thesis)分數
     public GraduateStudent (String name){
         super(name);//呼叫 Students
     }

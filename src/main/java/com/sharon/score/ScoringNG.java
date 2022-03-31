@@ -1,4 +1,4 @@
-package com.sharon;
+package com.sharon.score;
 
 public class ScoringNG {
     public static void main(String[] args) {

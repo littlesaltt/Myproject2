@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Tester {
     public static void main(String[] args) {
-        Ticket ticket = new Ticket(Station.TAIPEI_CITY,Station.KAOHSIUNG_CITY);
+//        Ticket ticket = new Ticket(Station.TAIPEI_CITY,Station.KAOHSIUNG_CITY);
 //        System.out.println(ticket.start.name);
         Scanner scanner = new Scanner(System.in);
         System.out.println("Your start station? (Taipei: 1, Taichung: 2, Kaohsiung: 3)");
@@ -41,7 +41,7 @@ public class Tester {
         System.out.println("how many ticket do you want");
         Scanner s = new Scanner(System.in);
         int quantity = Integer.parseInt(s.next());
-        System.out.println( ticket.start.name+ "\t" + ticket.destination.name + "\t" +"ticket:"+ quantity);
+        System.out.println( startStation.name+ "\t" + endStation.name + "\t" +"ticket:"+ quantity);
         //System.out.println( startStation+ "\t" + endStation + "\t" +"ticket:"+ quantity);
     }
 

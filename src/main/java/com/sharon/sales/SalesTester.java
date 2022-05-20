@@ -28,5 +28,7 @@ public class SalesTester {
         c4.print();
         PlatinumCustomer c5 = new PlatinumCustomer("0005", 2150);
         c5.print();*/
+
+
     }
 }

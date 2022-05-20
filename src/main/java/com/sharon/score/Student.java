@@ -1,6 +1,6 @@
 package com.sharon.score;
 
-public class Student {
+public class Student implements Printable {
     String name;
     int englishs;
     int maths;
@@ -14,7 +14,8 @@ public class Student {
         this.englishs=englishs;
         this.maths=maths;
     }
-
+    public Student(){}
+    @Override
     public void print(){
 
         System.out.print(name+"\t"+englishs+"\t"+maths+"\t"+getaverage());

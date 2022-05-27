@@ -18,8 +18,8 @@ public class MainWindow {
         JButton button=new JButton("OK");//視窗中間跑出ok
            //設定按下ok建會跑出什麼
            //匿名類別 Anonymous class
-        //MyActionListener listener=new MyActionListener();
-        //button.addActionListener(listener);
+        MyActionListener listener=new MyActionListener();
+        button.addActionListener(listener);
         //第二種方法
         button.addActionListener(new ActionListener() {
             @Override

@@ -18,7 +18,7 @@ public class GuessFrame extends JFrame{
         setSize(600,400);
         setLocation(300,200);
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);
-    
+
 
         button.addActionListener(new ActionListener() {
             @Override
